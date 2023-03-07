@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 20px 10px;
+  width: 100%;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cta img {
+  width: 90px;
+  height: 90px;
+}
+.cta h1 {
+  margin-top: 50px;
+}
+.cta p {
+  margin: 20px 0;
+}
+.cta .cta-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.cta .cta-btn button {
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1rem;
+  width: 90%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.cta .cta-btn .IOS-btn {
+  box-shadow: 5px 5px 20px hsl(171, 41%, 66%);
+  background-color: hsl(171, 66%, 44%);
+}
+.cta .cta-btn .mac-btn {
+  box-shadow: 5px 5px 20px hsl(233, 64%, 79%);
+  background-color: hsl(233, 100%, 69%);
+}
+
+.intro {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.intro h1 {
+  margin-bottom: 20px;
+}
+.intro .info img {
+  margin-top: 60px;
+  width: 100%;
+}
+.intro .info-section {
+  margin-top: 50px;
+}
+.intro .info-section div {
+  margin-top: 50px;
+}
+.intro .info-section div p {
+  margin-top: 20px;
+}
+
+.extra-info {
+  padding: 0 20px;
+  margin-top: 100px;
+}
+.extra-info .extra-info-p {
+  margin: 25px 0 50px;
+}
+.extra-info .eiDevice {
+  width: 100%;
+}
+.extra-info .imageText-component {
+  margin-top: 80px;
+}
+.extra-info .imageText-component p {
+  margin: 20px 0 100px;
+}
+.extra-info .imageText-component .tutorial h1 {
+  margin: 35px 0 20px;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brands .logo {
+  margin-bottom: 70px;
+}
+
+.final-info p {
+  margin: 20px 0 35px;
+}
+.final-info .cta-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  width: 100%;
+}
+.final-info .cta-btn button {
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1rem;
+  width: 90%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.final-info .cta-btn .IOS-btn {
+  box-shadow: 5px 5px 20px hsl(171, 41%, 66%);
+  background-color: hsl(171, 66%, 44%);
+}
+.final-info .cta-btn .mac-btn {
+  box-shadow: 5px 5px 20px hsl(233, 64%, 79%);
+  background-color: hsl(233, 100%, 69%);
+}
+
+.footer-container {
+  width: 100%;
+}
+
+footer {
+  color: hsl(210, 10%, 33%);
+  position: relative;
+  background-color: hsl(202, 17%, 91%);
+  margin-top: 150px;
+  padding: 30px;
+}
+footer .footer-img {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+footer .footer-img img {
+  width: 60px;
+  height: 60px;
+}
+footer div p {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+  cursor: pointer;
+}
+
+.attribution {
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+.attribution a {
+  text-decoration: none;
+  color: purple;
+}
+
+@media (min-width: 768px) {
+  .cta {
+    background-image: url(../images/bg-header-desktop.png);
+  }
+  .cta p {
+    width: 600px;
+  }
+  .cta .cta-btn {
+    flex-direction: row;
+  }
+  .cta .cta-btn button {
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  .intro .intro-p {
+    text-align: center;
+    width: 700px;
+  }
+  .intro .info {
+    display: flex;
+    margin-left: -300px;
+    gap: 50px;
+  }
+  .intro .info img {
+    width: 700px;
+    height: 480px;
+  }
+  .intro .info .info-section {
+    width: 400px;
+    text-align: left;
+  }
+  .extra-info {
+    text-align: center;
+  }
+  .extra-info .eiDevice {
+    width: 700px;
+    height: 450px;
+  }
+  .extra-info .extra-info-p {
+    margin-left: 300px;
+    width: 700px;
+  }
+  .extra-info .tutorials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .brands {
+    flex-direction: row;
+    gap: 70px;
+  }
+  .final-info p {
+    width: 680px;
+  }
+  .final-info .cta-btn {
+    flex-direction: row;
+  }
+  .final-info .cta-btn button {
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px;
+  }
+  footer {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+  }
+  footer .footer-img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .footer-img img {
+    width: 50px;
+    height: 50px;
+  }
+  footer p {
+    width: 200px;
+  }
+  footer .footer-icons {
+    margin-left: 200px;
+  }
+}/*# sourceMappingURL=main.css.map */
