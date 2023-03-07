@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Raymacmillan/Clipboard-Landing-Page](https://github.com/Raymacmillan/Clipboard-Landing-Page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://raymacmillan.github.io/Clipboard-Landing-Page/](https://raymacmillan.github.io/Clipboard-Landing-Page/)
 
 ## My process
 
